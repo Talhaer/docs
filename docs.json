@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Artemis-Studio ",
+  "name": "Artemis-Studio",
   "colors": {
-    "primary": "#1A73E8", 
-    "light": "#4285F4",    
-    "dark": "#155EEF"     
+    "primary": "#1A73E8",
+    "light": "#4285F4",
+    "dark": "#155EEF"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,11 +14,12 @@
         "tab": "Dökümanlar",
         "groups": [
           {
-            "group": "Başlangıç",
+            "group": "Artemis-Studio",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "shop",
+              "licence",
+              "team"
             ]
           },
           {
@@ -38,7 +39,7 @@
             ]
           },
           {
-            "group": "Configrasyonlar", 
+            "group": "Konfigürasyonlar",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
@@ -48,21 +49,29 @@
         ]
       },
       {
-        "tab": "İş Birliği", 
+        "tab": "İş Birliği",
         "groups": [
           {
-            "group": "Minecraft",
+            "group": "Minecraft - Genel",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "Minecraft",
+            "group": "Minecraft - API Uç Noktaları",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
+            ]
+          },
+          {
+            "group": "Kurallar ve Sözleşmeler",
+            "pages": [
+              "sozlesme/privacy-policy",
+              "sozlesme/rules",
+              "sozleşme/shoping-policy"
             ]
           }
         ]
@@ -72,12 +81,12 @@
       "anchors": [
         {
           "anchor": "Dökümanlar",
-          "href": "https://mintlify.com/docs", 
+          "href": "https://mintlify.com/docs",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Artemis Studio",
-          "href": "https://mintlify.com/blog", 
+          "href": "https://mintlify.com/blog",
           "icon": "newspaper"
         }
       ]
@@ -91,28 +100,27 @@
     "links": [
       {
         "label": "İletişim",
-        "href": "mailto:support@artemis-studio.com" 
+        "href": "mailto:support@artemis-studio.com"
       }
     ]
-
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/artemis-studio", 
-      "github": "https://github.com/artemis-studio", 
-      "linkedin": "https://linkedin.com/company/artemis-studio" 
+      "x": "https://x.com/artemis-studio",
+      "github": "https://github.com/artemis-studio",
+      "linkedin": "https://linkedin.com/company/artemis-studio"
     }
   }
 }
