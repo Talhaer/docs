@@ -49,21 +49,12 @@
         ]
       },
       {
-        "tab": "İş Birliği",
+        "tab": "İş Birliği-Sözleşmeler",
         "groups": [
           {
             "group": "Minecraft - Genel",
             "pages": [
               "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Minecraft - API Uç Noktaları",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
             ]
           },
           {
