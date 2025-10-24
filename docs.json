@@ -25,17 +25,9 @@
           {
             "group": "Eklentiler",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Özellikler",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "eklentiler/litebans",
+              "eklentiler/Advancedban",
+              "eklentiler/Ajleaderboards"
             ]
           },
           {
