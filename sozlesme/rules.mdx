@@ -1,93 +1,69 @@
 ---
-title: "Kullanım Şartları"
-description: "Preview changes locally to update your docs"
+title: "HİZMET SÖZLEŞMESİ "
+description: "Description of your new file."
 ---
 
-<Info>
-  **Prerequisites**:
+## 1. Sözleşmenin Kapsamı ve Değişiklikler
 
-  - Node.js version 19 or higher
-  - A docs repository with a `docs.json` file
-</Info>
+- **Hizmetler:** MineScript (Minecraft scriptleri) ve Discord botlarının dijital satışı, lisansı, indirme ve teknik desteği. Hizmetler "olduğu gibi" sunulur; kesintisiz çalışma garantisi verilmez.
+- **Kabul:** Hizmetleri kullanarak bu Sözleşmeyi, Gizlilik Politikamızı ve KVKK'yı kabul edersiniz.
+- **Değişiklikler:** Şirket, bildirimle değişiklik yapabilir; devam kullanım kabul sayılır.
 
-Follow these steps to install and run Mintlify on your operating system.
+## 2. Kullanıcı Yükümlülükleri
 
-<Steps>
-  <Step title="Install the Mintlify CLI">
-    ```bash
-    npm i -g mint
-    ```
-  </Step>
-  <Step title="Preview locally">
-    Navigate to your docs directory where your `docs.json` file is located, and run the following command:
+- **Kayıt:** Doğru ve eksiksiz bilgi verin (ad, e-posta vb.). Hesap güvenliği sizin sorumluluğunuzdadır.
+- **Kullanım Kuralları:**
+  - Hizmetleri yasal ve etik amaçlarla kullanın (örneğin, botları spam için kullanmayın).
+  - Fikri mülkiyet haklarını ihlal etmeyin (kodları kopyalamayın, yeniden satmayın).
+  - Kötüye kullanım (virüs yayma, DDoS) yasaktır; hesap kapatılır ve yasal işlem başlatılır.
+  - Üçüncü taraflara zarar vermeyin (örneğin, Discord ToS'una aykırı bot entegrasyonu).
+- **Ödemeler:** Ürün bedelleri peşindir; iade politikamız [ayrı sayfa]. Kredi kartı bilgileri saklanmaz.
 
-    ```bash
-    mint dev
-    ```
+## 3. Şirket Yükümlülükleri
 
-    A local preview of your documentation will be available at `http://localhost:3000`.
-  </Step>
-</Steps>
+- Hizmetleri teknik arızalar dışında sunmak.
+- Lisanslı ürünler sağlamak (MineScript ve botlar için kullanım lisansı verilir).
+- Müşteri desteği sunmak (e-posta/telegram vb. kanallardan).
+- Fiyat değişiklik hakkı saklıdır.
 
-## Custom ports
+## 4. Fikri Mülkiyet Hakları
 
-By default, Mintlify uses port 3000. You can customize the port Mintlify runs on by using the `--port` flag. For example, to run Mintlify on port 3333, use this command:
+- Tüm ürünler (kodlar, tasarımlar) Şirket'e aittir; lisans yalnızca kişisel/kısıtlı ticari kullanım için verilir.
+- Kopyalama, modifiye veya dağıtım yasaktır (Fikir ve Sanat Eserleri Kanunu'na göre).
+- Lisans süresi: Ömür boyu (güncellemeler hariç); ihlal durumunda iptal edilir.
 
-```bash
-mint dev --port 3333
-```
+## 5. Gizli Bilgiler ve Veri Koruma
 
-If you attempt to run Mintlify on a port that's already in use, it will use the next available port:
+- Kullanıcı verileri Gizlilik Politikamıza tabidir.
+- Şirket, verileri üçüncü taraflarla paylaşmaz (yasal zorunluluk hariç).
+- Kullanıcı, Şirket sırlarını (kod detayları) ifşa etmez.
 
-```md
-Port 3000 is already in use. Trying 3001 instead.
-```
+## 6. Garanti ve Sorumluluk Sınırları
 
-## Mintlify versions
+- **Garanti Yok:** Ürünler "olduğu gibi"dir; uyumluluk (Minecraft/Discord sürümleri) sizin sorumluluğunuzdadır.
+- **Sorumluluk:** Şirket, dolaylı zararlar (veri kaybı, kar kaybı) için sorumlu tutulamaz. Maksimum sorumluluk, ödenen bedelle sınırlıdır.
+- **Mücbir Sebep:** Afet, savaş vb. durumlarda yükümlülükler askıya alınır.
 
-Please note that each CLI release is associated with a specific version of Mintlify. If your local preview does not align with the production version, please update the CLI:
+## 7. Lisans ve Kullanım Hakları
 
-```bash
-npm mint update
-```
+- **MineScript:** Minecraft sunucularında kullanım lisansı; kaynak kod erişimi yok (istisnalar hariç).
+- **Discord Botları:** Tek sunucu/birim lisansı; kaynak kod paylaşımı ücretli ek hizmettir.
+- Lisans iptali: İhlal durumunda derhal.
 
-## Validating links
+## 8. Sözleşmenin Feshi
 
-The CLI can assist with validating links in your documentation. To identify any broken links, use the following command:
+- **Kullanıcı Tarafından:** Hesap silme talebiyle.
+- **Şirket Tarafından:** İhlal durumunda 7 gün ihtarla.
+- Fesih sonrası: Erişim kesilir; iadeler Sözleşme'ye göre.
 
-```bash
-mint broken-links
-```
+## 9. Uyuşmazlık Çözümü
 
-## Deployment
+- **Yetki:** İstanbul Mahkemeleri ve İcra Daireleri yetkilidir.
+- **Uygulanacak Hukuk:** Türkiye Cumhuriyeti Kanunları.
+- Delil: Şirket kayıtları esas alınır.
 
-If the deployment is successful, you should see the following:
+## 10. Genel Hükümler
 
-<Frame>
-  <img
-    src="/images/checks-passed.png"
-    alt="Screenshot of a deployment confirmation message that says All checks have passed."
-    style={{ borderRadius:"0.5rem" }}
-  />
-</Frame>
-
-## Code formatting
-
-We suggest using extensions on your IDE to recognize and format MDX. If you're a VSCode user, consider the [MDX VSCode extension](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) for syntax highlighting, and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting.
-
-## Troubleshooting
-
-<AccordionGroup>
-  <Accordion title='Error: Could not load the "sharp" module using the darwin-arm64 runtime'>
-    This may be due to an outdated version of node. Try the following:
-
-    1. Remove the currently-installed version of the CLI: `npm remove -g mint`
-    2. Upgrade to Node v19 or higher.
-    3. Reinstall the CLI: `npm i -g mint`
-  </Accordion>
-  <Accordion title="Issue: Encountering an unknown error">
-    Solution: Go to the root of your device and delete the `~/.mintlify` folder. Then run `mint dev` again.
-  </Accordion>
-</AccordionGroup>
-
-Curious about what changed in the latest CLI version? Check out the [CLI changelog](https://www.npmjs.com/package/mintlify?activeTab=versions).
+- **Tebligat:** E-posta ([e-posta]) veya adresimize.
+- **Bütünlük:** Bir madde geçersizse diğerleri geçerlidir.
+- **Son Hükümler:** Sözleşme, 10 madde ve eklerden ibarettir.
