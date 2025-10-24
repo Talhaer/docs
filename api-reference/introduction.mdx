@@ -1,28 +1,27 @@
 ---
-title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+title: 'API Giriş'
+description: 'OpenAPI tabanlı uç noktalar için kurumsal referans.'
 ---
 
 <Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
+  Bu bölüm OpenAPI spesifikasyonu üzerinden otomatik oluşturulan uç noktaları gösterir. Kendi spesifikasyonunuzla değiştirin.
 </Note>
 
-## Welcome
+## Genel Bakış
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+API dokümantasyonunu oluşturmanın iki yolu vardır: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) ve [MDX bileşenleri](https://mintlify.com/docs/api-playground/mdx/configuration). Bu başlangıç için aşağıdaki OpenAPI dosyası kullanılmaktadır.
 
 <Card
-  title="Plant Store Endpoints"
+  title="Örnek Uç Noktalar"
   icon="leaf"
   href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
 >
   View the OpenAPI specification file
 </Card>
 
-## Authentication
+## Kimlik Doğrulama
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+Tüm uç noktalar Bearer token kullanır ve bu gereklilik spesifikasyondan otomatik alınır.
 
 ```json
 "security": [
